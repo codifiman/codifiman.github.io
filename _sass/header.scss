@@ -1,0 +1,19 @@
+
+header {
+	background-color: color(blue);
+
+  .avatar {
+    width: 6em;
+    height: 6em;
+    border-radius: 3em;
+  }
+
+  h2 {
+    border-color: color-alpha(white, 0.3);
+  }
+
+  p {
+    margin: 1rem;
+    text-align: justify;
+  }
+}

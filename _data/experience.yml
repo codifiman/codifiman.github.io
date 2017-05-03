@@ -1,0 +1,25 @@
+#Jobs
+
+# F5 Networks
+- company: F5 Networks
+  position: Software Developer
+  duration: October 2014 - present
+  summary: I was the first hire on a new team to build a demonstration framework for F5's products. This framework allows users to create, document, teach, and share fully-functional demos of F5's virtual editions and is used for a wide variety of purposes within F5. Initially, we built out and maintained our own hypervisor cluster and storage servers; however, demand has outpaced our ability to scale and we recently transitioned to AWS. At its core, this system is a virtual machine orchestration application with a web interface specially designed for demoing and teaching F5 products. While I was initially hired as a datacenter systems engineer, my primary duties have been those of a full-stack software developer.
+
+# Explore Consulting
+- company: Explore Consulting
+  position: Technical Consultant
+  duration: July 2013 - September 2014
+  summary: I wore a lot of hats at Explore. Most of my time was spent leveraging NetSuite's JavaScript API to automate business tasks for dozens of clients, but I also worked on several large projects including two ASP.NET applications-- one used by the NFL Scouting Combine to track players available for informal interviews and another used by the Seahawks and Sounders to recap to their sponsors how money was spent throughout their seasons. Additionally, I maintained Explore's internal IT infrastructure.
+
+# Evergreen
+- company: The Evergreen State College
+  position: Senior System Operator
+  duration: February 2012 - June 2013
+  summary: Evergreen maintains a large fleet of computers for general use and lab use across its Olympia and Tacoma campuses. To satisfy the needs of all its programs, they provide access to Windows, Linux, and OSX. As a system operator, I kept these computers functional and up-to-date. My tenure was split between Mac management and Windows management. In my spare time, I overhauled a lot of our image deployment tooling so that it was easier to use and more fault-tolerant.
+
+# Teacher's Assistant
+- company: New Market Skills Center
+  position: Teacher's Assistant
+  duration: Summer 2008, Summer 2009
+  summary: New Market offers paid teaching assistant positions for its summer workshop classes. I assisted with the DigiPen Video Game Programming and Animation workshops where I answered questions, helped students realize ideas, and graded assignments.

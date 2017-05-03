@@ -1,0 +1,29 @@
+main {
+  section {
+    .section-item {
+      margin: 1rem;
+
+      & > :not(p) {
+        margin: 0.3rem 0;
+      }
+
+      p {
+        margin: 0.5rem 0;
+        text-align: justify;
+      }
+
+      .description {
+        display: flex;
+
+        h4 {
+          width: 50%;
+          display: inline-block;
+        }
+
+        :last-child {
+          text-align: end;
+        }
+      }
+    }
+  }
+}

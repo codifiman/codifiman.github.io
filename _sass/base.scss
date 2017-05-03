@@ -1,0 +1,35 @@
+@import "colors";
+
+body {
+  background-color: color-lightness(blue, 98%);
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+header, main {
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	padding: 2em 0;
+	width: 100vw;
+}
+
+.content {
+  transition: width 0.25s;
+
+  @media (max-width: 640px) {
+    width: 100vw;
+  }
+
+  @media (min-width: 641px) and (max-width: 1023px) {
+    width: 600px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 800px;
+  }
+}
+
+

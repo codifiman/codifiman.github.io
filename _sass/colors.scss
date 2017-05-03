@@ -1,0 +1,21 @@
+$colors: (
+  black: hsl(0,0%,10%),
+  white: hsl(0,0%,100%),
+	blue:	 hsl(230,60%,10%),
+);
+
+@function color($color) {
+  @return map-get($colors, $color);
+}
+
+@function color-alpha($color, $alpha) {
+  $color: map-get($colors, $color);
+
+  @return hsla(hue($color), saturation($color), lightness($color), $alpha);
+}
+
+@function color-lightness($color, $lightness) {
+  $color: map-get($colors, $color);
+
+  @return hsl(hue($color), saturation($color), $lightness);
+}

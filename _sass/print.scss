@@ -17,7 +17,7 @@ body.print {
     padding: 0;
   }
 
-  .fancy::before {
+  .fancy & > :first-child::before {
     background: transparent;
     mix-blend-mode: inherit;
   }

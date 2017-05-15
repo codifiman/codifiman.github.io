@@ -74,13 +74,13 @@
 
 - title: Services
   items:
-  - name: "AWS:SWF"
+  - name: "AWS: SWF"
     level: 2
     freshness: 1
-  - name: "AWS:EC2"
+  - name: "AWS: EC2"
     level: 2
     freshness: 1
-  - name: "AWS:DynamoDB"
+  - name: "AWS: DynamoDB"
     level: 2
     freshness: 1
   - name: "CouchDB"

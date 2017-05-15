@@ -16,7 +16,7 @@
 - company: The Evergreen State College
   position: Senior System Operator
   duration: February 2012 - June 2013
-  summary: "While at Evergreen, I maintained a large fleet of OSX and Windows/Linux dual-boot machines. In an effort to leave the lab in a better state than I found it, I overhauled a lot of our image deployment tooling. I also built several new tools, such as a wake-on-LAN app that could start up most of the lab in a single click."
+  summary: "While at Evergreen, I maintained a large fleet of OSX and Windows/Linux dual-boot machines. In an effort to leave the lab in a better state than I found it, I overhauled much of our image deployment tooling and built several new general-use tools, such as a wake-on-LAN app that could start up most of the lab in a single click."
 
 # Teacher's Assistant
 - company: New Market Skills Center

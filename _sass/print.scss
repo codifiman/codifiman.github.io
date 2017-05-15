@@ -9,7 +9,11 @@ body.print {
     border-color: color-lightness(black, 80%);
   }
 
-  header, main {
+  header {
+    padding: 1rem 0;
+  }
+
+  main {
     padding: 0;
   }
 

@@ -20,24 +20,25 @@
     display: inline-block;
     @include screen(small) {
       width: 100%;
-
     }
 
     @include screen(medium) {
-      width: 50%;
+      padding-right: 1rem;
+      width: calc(50% - 1rem);
 
-      &:nth-child(2n - 1) {
-        width: calc(50% - 1rem);
-        padding-right: 1rem;
+      &:nth-child(2n) {
+        width: 50%;
+        padding-right: 0;
       }
     }
 
     @include screen(large) {
-      width: 33.33%;
+      width: calc(33.33% - 1rem);
+      padding-right: 1rem;
 
-      &:not(:nth-child(3n)) {
-        width: calc(33.33% - 1rem);
-        padding-right: 1rem;
+      &:nth-child(3n) {
+        width: 33.33%;
+        padding-right: 0;
       }
     }
   }

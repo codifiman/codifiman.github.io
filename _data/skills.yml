@@ -3,33 +3,6 @@
 # 1: Beginner  2: Intermediate  3: Advanced
 # Freshness:
 # 1: Stale  2: Recent  3: Current
-- title: Libraries
-  items:
-  - name: "Angular 2"
-    level: 1
-    freshness: 1
-  - name: "React"
-    level: 3
-    freshness: 1
-  - name: "Redux"
-    level: 3
-    freshness: 1
-  - name: "AWS JavaScript API"
-    level: 2
-    freshness: 1
-  - name: "Backbone"
-    level: 3
-    freshness: 0
-  - name: "Lodash"
-    level: 3
-    freshness: 1
-  - name: "Node.js"
-    level: 3
-    freshness: 1
-  - name: "ASP.NET"
-    level: 1
-    freshness: 0
-
 - title: Languages
   items:
   - name: "JavaScript"
@@ -60,17 +33,32 @@
     level: 2
     freshness: 0
 
-- title: Tools
+- title: Libraries
   items:
-  - name: "Vim"
+  - name: "Angular 2"
+    level: 1
+    freshness: 1
+  - name: "React"
+    level: 3
+    freshness: 1
+  - name: "Redux"
+    level: 3
+    freshness: 1
+  - name: "AWS JavaScript API"
     level: 2
     freshness: 1
-  - name: "Visual Studio"
-    level: 2
+  - name: "Backbone"
+    level: 3
     freshness: 0
-  - name: "Photoshop"
-    level: 2
+  - name: "Lodash"
+    level: 3
     freshness: 1
+  - name: "Node.js"
+    level: 3
+    freshness: 1
+  - name: "ASP.NET"
+    level: 1
+    freshness: 0
 
 - title: Services
   items:
@@ -97,4 +85,16 @@
     freshness: 0
   - name: "BIG-IP"
     level: 1
+    freshness: 1
+
+- title: Tools
+  items:
+  - name: "Vim"
+    level: 2
+    freshness: 1
+  - name: "Visual Studio"
+    level: 2
+    freshness: 0
+  - name: "Photoshop"
+    level: 2
     freshness: 1

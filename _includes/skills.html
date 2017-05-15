@@ -1,0 +1,17 @@
+<div class="section-item chart">
+  {% for category in site.data.skills %}
+    <div>
+      <h6><span>{{ category.title }}</span></h6>
+      {% for skill in category.items %}
+      <div class="skill">
+        <div>{{ skill.name }}</div>
+        <div class="{{ site.data.level_icons.freshness[skill.freshness] }}">
+          <i class="fa fa-fw fa-circle"></i>
+          <i class="fa fa-fw fa-{% if skill.level > 1%}circle{% else %}circle-o{% endif %}"></i>
+          <i class="fa fa-fw fa-{% if skill.level > 2%}circle{% else %}circle-o{% endif %}"></i>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  {% endfor %}
+</div>

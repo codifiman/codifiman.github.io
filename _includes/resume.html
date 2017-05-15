@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<header>
+  <div class="content">
+    <div>
+      <div class="me">
+        <img src="images/avatar.jpg" alt="Photo of Codi" class="avatar" itemprop="image">
+        <h1 itemprop="name">{{ site.resume_name }}</h1>
+      </div>
+      {% include contact.html %}
+    </div>
+    <div>
+      <h2 itemprop="job-title">
+        <div itemprop="title">{{ site.job_title }}</div>
+        <div itemprop="location">{{ site.location }}</div>
+      </h2>
+      <p>
+        {{ site.data.summary }}
+      </p>
+    </div>
+  </div>
+</header>
+<main>
+  <div class="content">
+    <section>
+      <h2 class="fancy" itemprop="experience">Experience</h2>
+      {% for job in site.data.experience %}
+      <div class="section-item">
+        <h3>{{ job.company }}</h3>
+        <div class="description">
+          <h4>{{ job.position }}</h4>
+          <h4>{{ job.duration }}</h4>
+        </div>
+        <p>{{ job.summary }}</p>
+      </div>
+      {% endfor %}
+    </section>
+    <section>
+      <h2 class="fancy" itemprop="skills">
+        <div>Skills</div>
+        <div class="legend subtitle">
+          <div>
+            <span>Fresh</span>
+            <span class="fresh"><i class="fa fa-fw fa-circle"></i></span>
+          </div>
+          <div>
+            <span>Inactive</span>
+            <span class="inactive"><i class="fa fa-fw fa-circle"></i></span>
+          </div>
+        </div>
+      </h2>
+      {% include skills.html %}
+    </section>
+    <section>
+      <h2 class="fancy" itemprop="education">Education</h2>
+      {% for school in site.data.education %}
+      <div class="section-item">
+        <h3>{{ school.uni }}</h3>
+        <div class="description">
+          <h4>{{ school.degree }}</h4>
+          <h4>Class of {{ school.year }}</h4>
+        </div>
+        <ul>
+          {% for highlight in school.highlights %}
+          <li>{{ highlight }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </section>
+  </div>
+</main>

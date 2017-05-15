@@ -23,8 +23,8 @@
     }
 
     @include screen(medium) {
-      padding-right: 1rem;
-      width: calc(50% - 1rem);
+      padding-right: 2rem;
+      width: calc(50% - 2rem);
 
       &:nth-child(2n) {
         width: 50%;
@@ -33,8 +33,8 @@
     }
 
     @include screen(large) {
-      width: calc(33.33% - 1rem);
-      padding-right: 1rem;
+      width: calc(33.33% - 2rem);
+      padding-right: 2rem;
 
       &:nth-child(3n) {
         width: 33.33%;

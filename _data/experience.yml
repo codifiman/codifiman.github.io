@@ -16,10 +16,10 @@
 - company: The Evergreen State College
   position: Senior System Operator
   duration: February 2012 - June 2013
-  summary: "While at Evergreen, I maintained a large fleet of OSX and Windows/Linux dual-boot machines. Outside of primary duties, my goal was to leave the lab in a better state than I found it: I overhauled a lot of our image deployment tooling and built some new tools like a wake-on-LAN app that could start up most of the lab in a single click."
+  summary: "While at Evergreen, I maintained a large fleet of OSX and Windows/Linux dual-boot machines. In an effort to leave the lab in a better state than I found it, I overhauled a lot of our image deployment tooling. I also built several new tools, such as a wake-on-LAN app that could start up most of the lab in a single click."
 
 # Teacher's Assistant
 - company: New Market Skills Center
   position: Teacher's Assistant
   duration: Summer 2008, Summer 2009
-  summary: I assisted with the DigiPen Video Game Programming and Animation workshops where I answered questions, helped students realize ideas, proofed labs prior to students receiving them, and graded assignments.
+  summary: "I assisted with DigiPen's Video Game Programming and Animation workshops. I answered questions, helped students realize ideas, proofed labs prior to students receiving them, and graded assignments."

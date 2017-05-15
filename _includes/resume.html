@@ -22,7 +22,7 @@
 <main>
   <div class="content">
     <section>
-      <h2 class="fancy" itemprop="experience">Experience</h2>
+      <h2 class="fancy" itemprop="experience"><div>Experience</div></h2>
       {% for job in site.data.experience %}
       <div class="section-item">
         <h3>{{ job.company }}</h3>
@@ -51,7 +51,7 @@
       {% include skills.html %}
     </section>
     <section>
-      <h2 class="fancy" itemprop="education">Education</h2>
+      <h2 class="fancy" itemprop="education"><div>Education</div></h2>
       {% for school in site.data.education %}
       <div class="section-item">
         <h3>{{ school.uni }}</h3>

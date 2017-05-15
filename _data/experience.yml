@@ -4,7 +4,7 @@
 - company: F5 Networks
   position: Software Developer
   duration: October 2014 - present
-  summary: "I was the first hire on a new team created to build a demonstration framework for F5's products. This framework allows users to create, document, teach, and share fully-functional demos of F5's virtual editions and is now used for a wide variety of purposes within F5. Initially, we built out and maintained our own hypervisor cluster and storage servers; however, demand has outpaced our ability to scale and we have recently transitioned to AWS. At its core, this system is a virtual machine orchestration application with a web interface specially designed for demoing and teaching F5 products. While I was initially hired as a datacenter systems engineer, my primary duties have been those of a full-stack software developer."
+  summary: "I was the first hire on a new team created to build a demonstration framework for F5's products. This framework allows users to create, document, teach, and share fully-functional demos of F5's virtual editions and is now used for a wide variety of purposes within F5. Initially, we built out and maintained our own hypervisor cluster and storage servers; however, demand has outpaced our ability to scale and we have recently transitioned to AWS. At its core, this system is a virtual machine orchestration application with a web interface specially designed for demoing and teaching F5 products. While I was hired as a datacenter systems engineer, my primary duties have been those of a full-stack software developer."
 
 # Explore Consulting
 - company: Explore Consulting

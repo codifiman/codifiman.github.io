@@ -1,0 +1,100 @@
+# Skills
+# Level
+# 1: Beginner  2: Intermediate  3: Advanced
+# Freshness:
+# 1: Stale  2: Recent  3: Current
+- title: Libraries
+  items:
+  - name: "Angular 2"
+    level: 1
+    freshness: 1
+  - name: "React"
+    level: 3
+    freshness: 1
+  - name: "Redux"
+    level: 3
+    freshness: 1
+  - name: "AWS JavaScript API"
+    level: 2
+    freshness: 1
+  - name: "Backbone"
+    level: 3
+    freshness: 0
+  - name: "Lodash"
+    level: 3
+    freshness: 1
+  - name: "Node.js"
+    level: 3
+    freshness: 1
+  - name: "ASP.NET"
+    level: 1
+    freshness: 0
+
+- title: Languages
+  items:
+  - name: "JavaScript"
+    level: 3
+    freshness: 1
+  - name:  "HTML"
+    level: 3
+    freshness: 1
+  - name: "CSS"
+    level: 3
+    freshness: 1
+  - name: "Python"
+    level: 2
+    freshness: 0
+  - name: "C#"
+    level: 2
+    freshness: 0
+  - name: "C++"
+    level: 1
+    freshness: 0
+  - name: "C"
+    level: 2
+    freshness: 0
+  - name: "Java"
+    level: 2
+    freshness: 0
+  - name: "SQL (MSSQL, MySQL)"
+    level: 2
+    freshness: 0
+
+- title: Tools
+  items:
+  - name: "Vim"
+    level: 2
+    freshness: 1
+  - name: "Visual Studio"
+    level: 2
+    freshness: 0
+  - name: "Photoshop"
+    level: 2
+    freshness: 1
+
+- title: Services
+  items:
+  - name: "AWS:SWF"
+    level: 2
+    freshness: 1
+  - name: "AWS:EC2"
+    level: 2
+    freshness: 1
+  - name: "AWS:DynamoDB"
+    level: 2
+    freshness: 1
+  - name: "CouchDB"
+    level: 3
+    freshness: 1
+
+- title: Systems
+  items:
+  - name: "Docker"
+    level: 2
+    freshness: 1
+  - name: "GlusterFS"
+    level: 1
+    freshness: 0
+  - name: "BIG-IP"
+    level: 1
+    freshness: 1

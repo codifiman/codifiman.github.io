@@ -1,7 +1,9 @@
 #Links
 
-- url: 'https://github.com/delta62/oscars-ui'
-  description: Oscars UI code (site is offline until next season)
+- url: 'https://github.com/delta62/oscar-ui'
+  description: 'Github: Oscars Ballot UI (site is offline until next season)'
+  target: '_blank'
 
 - url: '/oscars-designs'
   description: Screen designs for the Ballot UI
+  target: '_self'

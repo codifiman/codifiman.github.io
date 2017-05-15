@@ -4,4 +4,12 @@
 - project: Oscars Ballot
   role: Contributer
   duration: 2016 - present
-  description: Provided designs and front-end work for an application that my husband and I wrote for our yearly Oscars party. Links below.
+  tech: Angular 2, Flux-lite, Sass, Node.js, Web Sockets
+  summary: Provided designs and front-end work for an application that lets users vote on who will win Oscars. Links below.
+
+# MTG UI
+- project: Trading Card Game Catalog
+  role: Contributer
+  duration: March 2017 - present
+  tech: Angular 2, Redux, Sass, Node.js
+  summary: In early stages of design and development of an application that will allow users to catalog their card collections and the decks they've built.

@@ -29,19 +29,22 @@ h2 {
   &.fancy {
     background: color-lightness(blue, 98%);
     color: color(black);
-    position: relative;
     text-transform: uppercase;
 
-    &::before {
-      background: linear-gradient(color-lightness(purple, 40%), color(purple));
-      content: '';
-      display: inline-block;
-      mix-blend-mode: lighten;
-      position: absolute;
-      top: 1rem;
-      left: 0;
-      right: 0;
-      bottom: 1rem;
+    & > :first-child {
+      position: relative;
+
+      &::before {
+        background: linear-gradient(color-lightness(purple, 40%), color(purple));
+        content: '';
+        display: inline-block;
+        mix-blend-mode: lighten;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+      }
     }
   }
 

@@ -1,10 +1,10 @@
 @mixin screen($size) {
   @if $size == small {
-    @media (max-width: 640px) { @content; }
+    @media (max-width: 724px) { @content; }
   }
 
   @else if $size == medium {
-    @media (min-width: 641px) and (max-width: 1023px) { @content; }
+    @media (min-width: 725px) and (max-width: 1023px) { @content; }
   }
 
   @else if $size == large {

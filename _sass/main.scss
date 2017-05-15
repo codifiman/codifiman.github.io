@@ -1,7 +1,20 @@
 main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2em 0;
+  width: 100vw;
+
   section {
+    display: inline-block;
+    width: 100%;
     .section-item {
       margin: 1rem;
+
+      &:not(:nth-child(2)) {
+        margin-top: 2rem;
+      }
 
       & > :not(p) {
         margin: 0.3rem 0;

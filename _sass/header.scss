@@ -62,10 +62,6 @@ header {
   }
 
   p {
-    text-align: justify;
-    word-break: break-word;
-    hyphens: auto;
-
     @include screen(small) {
       margin: 2rem 1rem;
     }

@@ -63,3 +63,9 @@ h6 {
 header {
 	color: color-alpha(white, 0.9);
 }
+
+p {
+  hyphens: auto;
+  text-align: justify;
+  word-break: all;
+}

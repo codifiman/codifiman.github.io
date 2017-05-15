@@ -1,35 +1,184 @@
 @import "colors";
+@import "mixins";
 
 body {
   background-color: color-lightness(blue, 98%);
   height: 100vh;
   margin: 0;
+  overflow-x: hidden;
   padding: 0;
-}
-
-header, main {
-	align-items: center;
-	display: flex;
-	flex-direction: column;
-  justify-content: center;
-	padding: 2em 0;
-	width: 100vw;
 }
 
 .content {
   transition: width 0.25s;
 
-  @media (max-width: 640px) {
+  @include screen(small) {
     width: 100vw;
+  };
+
+  @include screen(medium) {
+    width: 90%;
   }
 
-  @media (min-width: 641px) and (max-width: 1023px) {
-    width: 600px;
-  }
-
-  @media (min-width: 1024px) {
-    width: 800px;
+  @include screen(large) {
+    width: 1024px;
   }
 }
 
+main {
+  align-items: center;
+	display: flex;
+	flex-direction: column;
+  justify-content: center;
+	padding: 2em 0;
+	width: 100vw;
 
+  section {
+    display: inline-block;
+    width: 100%;
+
+    .section-item:not(:nth-child(2)) {
+      margin-top: 2rem;
+    }
+  }
+}
+
+a.button {
+  background-color: color-alpha(purple, 0.7);
+  border: none;
+  border-bottom: solid 0.3rem color-alpha(purple, 0.9);
+  border-radius: 0.2rem;
+  color: color-lightness(purple, 98%);
+  font-size: 18px;
+  font-weight: 100;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  width: 100%;
+
+  a, i {
+    color: color-alpha(white, 0.87);
+  }
+
+  a {
+    background-color: color-alpha(purple, 0.6);
+    border: solid 1px color-alpha(purple, 0.3);
+    border-radius: 0.1rem;
+    padding: 0.3rem 0.5rem;
+    text-decoration: none;
+  }
+
+  i {
+    margin-right: 0.5rem;
+  }
+
+  @include screen(small) {
+    flex-direction: row;
+    justify-content: center;
+
+    & > :not(:last-child) {
+      margin-right: 0.5rem;
+    }
+
+    a {
+      align-items: center;
+      border-radius: 2.25rem;
+      display: flex;
+      height: 2rem;
+      justify-content: center;
+      padding: 0.5rem;
+      width: 2rem;
+    }
+
+    i {
+      font-size: 25px;
+      margin-right: 0;
+    }
+
+    span {
+      display: none;
+    }
+  }
+
+  @include screen(medium) {
+    align-items: flex-end;
+    flex-direction: column;
+
+    & > :not(:last-child) {
+      margin-bottom: 0.5rem;
+    }
+
+    a {
+      border-radius: 0.1rem;
+    }
+  }
+
+  @include screen(large) {
+    flex-direction: row;
+    justify-content: center;
+
+    & > :not(:last-child) {
+      margin-right: 0.5rem;
+    }
+  }
+}
+
+ul {
+  padding: 0;
+
+  li {
+    list-style: none;
+
+    &::before {
+      content: '\261E';
+      font-size: 32px;
+      display: inline-block;
+      position: relative;
+      top: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+}
+
+.links {
+  a {
+    font-size: 18px;
+  }
+}
+
+.legend {
+  display: flex;
+  align-items: baseline;
+
+  & > :not(:last-child) {
+    margin-right: 0.5rem;
+  }
+}
+
+h2 {
+  display: flex;
+  border-color: color-alpha(white, 0.2);
+  margin-top: 0.5rem;
+
+  :first-child {
+    flex: 1;
+  }
+
+  :last-child {
+    text-align: end;
+  }
+
+  @include screen(small) {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    :last-child {
+      font-size: 18px;
+      font-weight: 700;
+    }
+  }
+}

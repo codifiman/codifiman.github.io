@@ -1,0 +1,71 @@
+@import "mixins";
+@import "colors";
+
+.chart {
+  display: flex;
+  flex-wrap: wrap;
+
+  h6 {
+    display: flex;
+    margin-top: 1rem;
+    &::after {
+      border-top: solid 1px color-alpha(black, 0.2);
+      content: '';
+      flex: 1;
+      margin: auto 0 auto 0.5rem;
+    }
+  }
+
+  & > * {
+    display: inline-block;
+    @include screen(small) {
+      width: 100%;
+
+    }
+
+    @include screen(medium) {
+      width: 50%;
+
+      &:nth-child(2n - 1) {
+        width: calc(50% - 1rem);
+        padding-right: 1rem;
+      }
+    }
+
+    @include screen(large) {
+      width: 33.33%;
+
+      &:not(:nth-child(3n)) {
+        width: calc(33.33% - 1rem);
+        padding-right: 1rem;
+      }
+    }
+  }
+
+  .skill {
+    display: flex;
+    padding: 0.5rem;
+
+    @include screen(small) {
+      &:not(:last-child) {
+        border-bottom: solid 1px color-alpha(black, 0.05);
+      }
+    }
+
+    :first-child {
+      flex: 1;
+    }
+
+    :last-child {
+      justify-self: flex-end;
+    }
+  }
+}
+
+.fresh *, .print .fresh * {
+  color: mix(color(purple), color(blue), 80%);
+}
+
+.inactive *, .print .inactive * {
+  color: color-alpha(black, 0.3)
+}

@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300,700,900|Eczar:800');
 @import "colors";
 
-$border: 4px solid color-alpha(blue, 0.3);
+$border: 4px solid color-alpha(blue, 0.2);
 
 body {
 	color: color-alpha(black, 0.85);
   font-family: 'Lato', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -15,25 +19,52 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Eczar', serif;
   font-weight: 900;
-  font-size: 47px;
-	margin: 0.5em;
+  font-size: 45px;
 }
 
 h2 {
+  align-items: center;
   border-bottom: $border;
   border-top: $border;
-  font-weight: 200;
+  font-weight: 300;
 	padding: 0.5em;
   width: 96%;
+  margin: 2rem 0;
+
+  &.fancy {
+    background: color-lightness(blue, 98%);
+    color: color(black);
+    position: relative;
+    text-transform: uppercase;
+
+    &::before {
+      background: linear-gradient(color-lightness(purple, 40%), color(purple));
+      content: '';
+      display: inline-block;
+      mix-blend-mode: lighten;
+      position: absolute;
+      top: 1rem;
+      left: 0;
+      right: 0;
+      bottom: 1rem;
+    }
+  }
+
+  .subtitle {
+    font-size: 18px;
+    text-transform: none;
+  }
 }
 
-h3 {
-  font-weight: 800;
-}
-h4 {
+h3, h4 {
   font-weight: 700;
+}
+
+h6 {
+  text-transform: uppercase;
+  font-weight: 300;
 }
 
 header {

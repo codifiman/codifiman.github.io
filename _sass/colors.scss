@@ -2,6 +2,7 @@ $colors: (
   black: hsl(0,0%,10%),
   white: hsl(0,0%,100%),
 	blue:	 hsl(230,60%,10%),
+  purple: hsl(330, 80%, 55%),
 );
 
 @function color($color) {

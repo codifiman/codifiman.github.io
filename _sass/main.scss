@@ -10,17 +10,23 @@ main {
       p {
         margin: 0.5rem 0;
         text-align: justify;
+        word-break: break-word;
+        hyphens: auto;
       }
 
       .description {
         display: flex;
 
         h4 {
-          width: 50%;
           display: inline-block;
         }
 
+        :first-child {
+          flex: 1;
+        }
+
         :last-child {
+          padding-left: 1em;
           text-align: end;
         }
       }

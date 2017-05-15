@@ -1,0 +1,20 @@
+@import "colors";
+
+body.print {
+  * {
+    color: color-lightness(black, 20%);
+    background-color: white;
+    background: white;
+    text-decoration: none;
+    border-color: color-lightness(black, 80%);
+  }
+
+  header, main {
+    padding: 0;
+  }
+
+  .fancy::before {
+    background: transparent;
+    mix-blend-mode: inherit;
+  }
+}

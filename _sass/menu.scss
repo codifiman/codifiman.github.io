@@ -1,0 +1,21 @@
+@import "colors";
+
+menu {
+  align-items: center;
+  background-color: color(blue);
+  display: flex;
+  height: 4rem;
+  justify-content: flex-end;
+  margin: 0;
+  padding: 0 1.25rem;
+
+  & > * {
+    display: inline-block;
+  }
+
+  i {
+    color: color-alpha(white, 0.75);
+
+  }
+
+}

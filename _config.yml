@@ -18,10 +18,10 @@ email: codi.fiman@gmail.com
 description:
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://codifiman.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dorsvi
 github_username:  codifiman
 resume_name: Codi Fiman
 job_title: Full-stack Software Developer
+location: Kent, WA
 
 # Build settings
 markdown: kramdown
